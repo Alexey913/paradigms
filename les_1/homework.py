@@ -1,5 +1,8 @@
 from datetime import datetime
 
+# Задача №1
+# Дан список целых чисел numbers. Необходимо написать в императивном стиле процедуру для
+# сортировки числа в списке в порядке убывания. Можно использовать любой алгоритм сортировки.
 
 def sort_list_imperative(numbers: list):
     count = 0
@@ -13,6 +16,8 @@ def sort_list_imperative(numbers: list):
                 numbers[i] = temp
     return numbers
 
+# Задача №2
+# Написать точно такую же процедуру, но в декларативном стиле
 
 def sort_list_declarative(numbers: list):
     return sorted(numbers, reverse=True)
