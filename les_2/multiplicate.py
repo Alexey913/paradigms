@@ -16,5 +16,5 @@ def multiplicate_table_print(table: list[list]):
 
 if __name__ == '__main__':
     num = int(input('Введите число: '))
-    jlist =[[f'{i} * {j} = {i * j}' for i in range(1, num+1)] for j in range(1, num+1)]
-    multiplicate_table_print(jlist)
+    mult_list =[[f'{i} * {j} = {i * j}' for i in range(1, num+1)] for j in range(1, num+1)]
+    multiplicate_table_print(mult_list)
